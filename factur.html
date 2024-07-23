@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylefactur.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>factur</title>
+</head>
+<body>
+    <header>
+        <section class="header">
+            <div class="title"> <h1>bienvenue tanguaana  amoul faye </h1> </div>
+            <div class="nav">
+             <nav>
+               <a href="acceuille du restaurant.html"title=acceille >acceuille</a> <br>
+                 <a href="menu.html"title=menu.html>voir menu</a> <br>
+                   <a href="contact du restaurant.html"title=notre contact>nous contacter</a>
+             </nav></div>
+             <div class="social">
+                 
+                      <a href=""><i class="fa-brands fa-instagram fa-beat" style="color: #dd2791;"> instagram</i></a>
+                      <a href=""><i class="fa-brands fa-facebook fa-beat" style="color: #235cbe;"> facebook</i></a>
+                 
+                 </div>
+                 <div class="a1">
+                 <a href="factur.html"> <i class="fa fa-cart-shopping fa-bounce" style="color: #ffa424;"> payement</i></a>
+                 </div>
+             </section>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="final">
+                <div class="title01">
+                    <h1> PARTY <br> FINALISATION !</h1>
+                </div>
+            </div>
+        </section>
+        <section> 
+            <div class="instri">
+           <h1 class="A1" style="background-color: rgb(205, 207, 210);">instructions pour finalise</h1>
+        </div>
+        <div>
+            <article>
+                <p >
+                    <ol type="i">
+                        <li>
+                            <p>Parcourir le menu <i class="fa fa-check fa-xs" style="color: #00ff62;"></i></p>
+                        </li>
+                        <li>
+                            <p>ajouter vos favorits et remplir le refference horraire<i class="fa fa-check fa-xs" style="color: #00ff62;"></i></p>
+                        </li>
+                        <li>
+                            <p> VOUS indiquerez votre choix  dans le party description siuvant <i class="fa fa-check fa-xs" style="color: #00ff62;"></i></p>
+                        </li>
+                        <li>
+                            <p> gettez un cout d oille dans dans la cas : en vu <i class="fa fa-check fa-xs" style="color: #00ff62;"></i></p>
+                        </li>
+                        <li><p> affiche du montant : <i class="fa fa-check fa-xs" style="color: #00ff62;"></i></p></li>
+                        <li>
+                            <p> en fin valider  <i class="fa-solid fa-check-double fa-Xs"></i></p>
+                        </li>
+                    </ol>
+                </p>
+            </article>
+        </div>
+    </section>
+    <section class="pay">
+        <div class="p1">
+            <div class="p11S"><h2>DETAILLES DES TACHES</h2></div>
+                <div class="p11"><H3> referrence horrair :</H3>
+                    
+                        <input type="datetime-local" id="n3"> 
+                    
+                </div>
+                <div class="p11" id="choix">
+                    <P> DESCRIPTION :</P>
+                    <ol>
+                    <li> 
+                        <p name="c1" id="c1" style="background-color: #dd27917e; font-family: Georgia, 'Times New Roman', Times, serif;" onclick="foo1();"> YASSA + boir</p>
+                    </li>
+                    <li> 
+                        <p name="c2" id="c2" style="background-color: #69f1405c; font-family: Georgia, 'Times New Roman', Times, serif;" onclick="foo2();"> riz au poisson </p>
+                    </li>
+                    <li>
+                         <p name="c3" id="c3" style="background-color: #5820ff; font-family: Georgia, 'Times New Roman', Times, serif;" onclick="foo3();">  maffe</p>
+                        </li>
+                        <li>
+                            <p name="c4" id="c4" style="background-color: #b8b6be4c; font-family: Georgia, 'Times New Roman', Times, serif;" onclick="foo4();">  maffe+ Ccoca cola</p>
+                           </li>
+                        <li>
+                            <p name="c5" id="c5" style="background-color: #32312f4a; font-family: Georgia, 'Times New Roman', Times, serif;" onclick="foo5();">  OMLET + COFEE</p>
+                         </li>
+                         <li>
+                            <p name="c6" id="c6" style="background-color: #615e56; font-family: Georgia, 'Times New Roman', Times, serif;" onclick="foo6();"> riz au poisson + jus de fruit</p>
+                         </li>
+                    
+                    </ol>
+                </div>
+                <div class="p11"> 
+                    <h1>PAYEMENT INLINE</h1>
+                    <select name="payement" id="modePay"> 
+                        <option value="orange money"> orange money</option>
+                        <option value="wave"> wave</option> 
+                        <option value="ppay"> ppay</option>
+                    </select>
+                </div>
+                <div class="p11">
+                    <P> EN VUE <Textarea id="n1"></Textarea></P> 
+                </div>
+                <div class="p11">
+                    <H3> MONTANT EN cfa : </H3> <input type="text" id="n2" >
+
+                    <br><br>
+                    <button onclick="confirm('estez vous sur de vouloir valider')" style="background-color: #00ff62;">valider</button>
+                    <button type="reset" style="background-color: #235cbe;">reset</button>
+                </div>
+                
+        </div>
+    </section>
+
+    </main>
+    <footer></footer>
+    <script src="for.JS">
+
+    </script>
+</body>
+</html>

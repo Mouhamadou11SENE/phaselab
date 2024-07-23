@@ -1,0 +1,180 @@
+header{
+    border-top-right-radius:23% ; 
+    margin-bottom: 0;
+ }
+footer{
+    background-color: rgb(216, 216, 25);
+    border-radius: 12%;
+}
+main{
+    margin-top: 19px;
+    background-color: rgba(0, 0, 0, 0.068);
+}
+h1{
+    background-color: rgb(44, 255, 25);
+    color: rgb(220, 168, 24);
+    border-radius: 87%;
+    margin-right: 50%;
+    font-size:  39px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    color: rgb(247, 146, 13);
+    text-align: center;
+}
+
+address{
+    border-radius: 14%;
+    color: rgb(220, 168, 24);
+    padding: 10px 9% 10px 9%;
+    letter-spacing: 12px;
+    padding: 12px;
+}
+a{
+    color: rgb(215, 38, 38);
+    background-color:color rgba(131, 240, 16, 0.847);
+    padding-bottom:4 px;
+    padding-top: 7px;
+    text-decoration: none;
+    margin: 42px;
+    padding: 12px;
+    margin-bottom: 13px;
+    font-weight: bolder;
+    font-size: 23px;
+    
+}
+article{
+    margin: 24px 34px 24px 34px;
+}
+table{
+    margin-left: 20%;
+    background-color: rgba(240, 240, 175, 0.495);
+    width: 550px;
+    height: 200px;
+}
+.nav{
+     display:flex;
+    text-align: center;
+    
+}
+a:hover{
+    border-radius: 67%;
+   background-color: rgba(160, 245, 12, 0.548);
+   
+}
+td:nth-child(2){
+   background-color: rgba(78, 254, 14, 0.203);
+}
+td:nth-child(2):hover{
+    background-color: rgb(106, 255, 0);
+}
+.b1{
+    display:flex;
+    color: rgb(247, 247, 247);
+}
+
+.social{
+    float: right;
+}
+.a1{
+    text-align: center;
+}
+.a2{
+    float: center;
+    width: 15px;
+    height: 19px;
+}
+i:hover{
+    background-color: rgb(0, 208, 255);
+}
+.info{
+    display: flex;
+}
+
+p{
+    border-width: 86px;
+}
+.info{
+    background-image: url();
+}
+.DEVIS{
+    background-image: url(kk.jpg);
+    background-repeat: none;
+    text-align: center;
+}
+
+
+body{
+    text-align: center;
+    background-image: url(OIP\ \(3\).jpg);
+    font-family: 'Courier New', Courier, monospace;
+}
+article{
+    color: rgb(248, 250, 250);
+}
+
+.menu1{
+    display:flex;
+    text-align: center;
+    margin-left: 83px;
+    justify-items: center;
+
+}
+img{
+    border-radius: 29px;
+}
+.logo{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+.qq{
+    margin-top: 34px;
+}
+.logo:hover{
+border-radius: 65%;
+border-color: blue;
+transition: 2s;
+background-color: rgba(187, 187, 187, 0.114);
+}
+.menu2{
+    display: block;
+    text-align: center;
+}
+.menu3{
+    display: flex;
+}
+.menu4{
+    display: flex;
+}
+label,legend,p{
+    color: aliceblue;
+}
+table{
+    position: relative;
+}
+.v1{
+    text-align: CENTER;
+}
+@media screen and (max-width :800px){
+    body{ 
+        width: 99%;
+    };
+    .plat{
+        display:inline-block;
+    }
+    .menu1{
+        display: block;
+    }
+    
+}
+@media screen and (min-width:1440px) {
+    body{ 
+        width: 99%;
+    };
+}
+
+.oo{
+    background-color: rgba(0, 0, 0, 0.123);
+}
