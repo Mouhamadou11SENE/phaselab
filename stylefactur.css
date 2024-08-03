@@ -1,6 +1,7 @@
 header{
    border-top-right-radius:23% ; 
    margin-bottom: 0;
+   background-repeat: no-repeat;
 }
 footer{
     background-color: rgb(216, 216, 25);
@@ -10,22 +11,20 @@ footer{
     float: right;
 }
 h1{
-    color: rgb(220, 168, 24);
-    background-color: rgb(162, 222, 11);
-    border-radius: 87%;
+    color: rgb(255, 255, 255);
     margin-right: 50%;
-    font-size:  39px;
+    font-size:  59px;
+    float: center;
 }
 h2{
     color: rgb(247, 146, 13);
     text-align: center;
 }
 main{
-    background-color: rgba(250, 250, 250, 0.212);
+    background-color: rgba(43, 42, 40, 0.16);
 }
 a{
-    color: rgb(215, 38, 38);
-    background-color:color rgba(131, 240, 16, 0.847);
+    color: rgb(30, 0, 255);
     padding-bottom:4px;
     padding-top: 7px;
     text-decoration: none;
@@ -34,6 +33,7 @@ a{
     margin-bottom: 13px;
     font-weight: bolder;
     font-size: 23px;
+    text-align: left;
     
 }
 body{
@@ -42,7 +42,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 .header{
-    display: inline;
+    display: flex;
 }
 i:hover{
     background-color: rgb(0, 208, 255);
@@ -52,9 +52,7 @@ i:hover{
    text-align: left;
 }
 a:hover{
-    border-radius: 67%;
-   background-color: rgba(18, 19, 18, 0.548);
-   
+    color: rgb(157, 0, 255);
 }
 .A1{
     border: double;
@@ -62,9 +60,8 @@ a:hover{
    
 }
 .pay{
-    
+    background-color: rgba(0, 0, 0, 0.269);
     text-align: center;
-    background-image: url(FF.webp);
     border:dashed ;
     margin-left: 172px;
     margin-right: 172px;
