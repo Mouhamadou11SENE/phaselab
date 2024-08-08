@@ -1,7 +1,7 @@
 function foo1(){
 var c1=document.getElementById('c1');
  c1.onclick=function foo(){
-    document.getElementById('n1').value= this.innerHTML=document.getElementById('n3').value+' Mde/Mrs vous avez choisir "YASSA et boir QUELLES CHOSE et de payer avec  ' + document.getElementById('modePay').value;
+    document.getElementById('n1').value= this.innerHTML=document.getElementById('n3').value+' Mde/Mrs vous avez choisir "Sushi et sashimi et boir QUELLES CHOSE et de payer avec  ' + document.getElementById('modePay').value;
     document.getElementById('n2').value=this.innerHTML =' le montant s eleve a :2500'
       this.innerHTML='BRAVooooo!'
  };
@@ -18,7 +18,7 @@ function foo2(){
     function foo3(){
         var c3=document.getElementById('c3');
          c3.onclick=function foo(){
-            document.getElementById('n1').value=document.getElementById('n3').value+' Mde/Mrs vous avez choisir :maffe et de payer avec ' + document.getElementById('modePay').value;
+            document.getElementById('n1').value=document.getElementById('n3').value+' Mde/Mrs vous avez choisir :plat poulet et de payer avec ' + document.getElementById('modePay').value;
             document.getElementById('n2').value =' le montant s eleve a :1500';
       this.innerHTML='YOUPIIIIII!'
         
@@ -27,7 +27,7 @@ function foo2(){
         function foo4(){
          var c4=document.getElementById('c4');
           c4.onclick=function foo(){
-             document.getElementById('n1').value=document.getElementById('n3').value+' Mde/Mrs vous avez choisir :maffe et pour boir coca cola  et de payer avec ' + document.getElementById('modePay').value;
+             document.getElementById('n1').value=document.getElementById('n3').value+' Mde/Mrs vous avez choisir :Tarte Tatin et pour boir coca cola  et de payer avec ' + document.getElementById('modePay').value;
              document.getElementById('n2').value =' le montant s eleve a :1700';
              this.innerHTML='WELLIIII!'
          
@@ -36,7 +36,7 @@ function foo2(){
          function foo5(){
             var c5=document.getElementById('c5');
              c5.onclick=function foo(){
-                document.getElementById('n1').value=document.getElementById('n3').value+' Mde/Mrs vous avez choisir :OMLET ET DU COFEE et de payer avec '+ document.getElementById('modePay').value;
+                document.getElementById('n1').value=document.getElementById('n3').value+' Mde/Mrs vous avez choisir :Filet de bœuf et de payer avec '+ document.getElementById('modePay').value;
                 document.getElementById('n2').value =' le montant s eleve a :1400';
                 this.innerHTML='GENIALLLL!'
             
@@ -50,16 +50,49 @@ function foo2(){
                    this.innerHTML='SUPERRRR!'
                
                 };
-               };                         
+               }; 
+               function foo7(){
+                  var c7=document.getElementById('c7');
+                   c7.onclick=function foo(){
+                      document.getElementById('n1').value=document.getElementById('n3').value+' Mde/Mrs vous avez choisir :hamburger et de payer avec '+ document.getElementById('modePay').value;
+                      document.getElementById('n2').value =' le montant s eleve a :1200';
+                      this.innerHTML='SUPERRRR!'
+                  
+                   };
+                  };   
+                  function foo8(){
+                     var c8=document.getElementById('c8');
+                      c8.onclick=function foo(){
+                         document.getElementById('n1').value=document.getElementById('n3').value+' Mde/Mrs vous avez choisir :PIZZA et de payer avec '+ document.getElementById('modePay').value;
+                         document.getElementById('n2').value =' le montant s eleve a :3700';
+                         this.innerHTML='SUPERRRR!'
+                     
+                      };
+                     };         
+                     function foo9(){
+                        var c9=document.getElementById('c9');
+                         c9.onclick=function foo(){
+                            document.getElementById('n1').value=document.getElementById('n3').value+' Mde/Mrs vous avez choisir :YASSA et de payer avec '+ document.getElementById('modePay').value;
+                            document.getElementById('n2').value =' le montant s eleve a :3700';
+                            this.innerHTML='SUPERRRR!'
+                        
+                         };
+                        };   
+                        function foo10(){
+                           var c10=document.getElementById('c10');
+                            c10.onclick=function foo(){
+                               document.getElementById('n1').value=document.getElementById('n3').value+' Mde/Mrs vous avez choisir :TARTE TARTINER et de payer avec '+ document.getElementById('modePay').value;
+                               document.getElementById('n2').value =' le montant s eleve a :2200';
+                               this.innerHTML='SUPERRRR!'
+                           
+                            };
+                           };                      
 
-function b11(){
-   var para1= document.getElementById('gter1');
-   var para2=document.getElementById('gter2');
-   para1.onclick=function(){
-      this.innerHTML='nous sommes meilleur dans noter.nous somme bien qualifier dans ce dommain.nous participons a la developpement de notre pays en participant ala reduction du chaumage des geunnes.La satisfaction de nos clients est noter objectif .'
-   };
-   para2.onclick=function(){
-      this.innerHTML='une entreprise exempilair au geunnes africaine .L ideal general en est de monter qu on peut naitre ici travailler ici et reussir .'
 
-   }
-}     
+    function reset(){
+var rstt=document.getElementById('rst')
+rstt.onclick=function suppr() {
+   document.getElementById('n1').value= " ";
+   document.getElementById('n2').value= ' '
+};
+}

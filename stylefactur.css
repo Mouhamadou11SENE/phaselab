@@ -24,7 +24,7 @@ main{
     background-color: rgba(43, 42, 40, 0.16);
 }
 a{
-    color: rgb(30, 0, 255);
+    color: rgb(255, 255, 255);
     padding-bottom:4px;
     padding-top: 7px;
     text-decoration: none;
@@ -52,7 +52,7 @@ i:hover{
    text-align: left;
 }
 a:hover{
-    color: rgb(157, 0, 255);
+    color: rgb(203, 203, 203);
 }
 .A1{
     border: double;
