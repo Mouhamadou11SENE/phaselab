@@ -1,6 +1,7 @@
 header{
     background-image: url(OIP\ \(3\).jpg);
     background-repeat: repeat;
+    width: 100%;
  }
 footer{
     background-color: rgba(0, 0, 0, 0.886);
@@ -63,9 +64,13 @@ h4{
     font-family: 'Times New Roman', Times, serif ;
 }
 .nav{
-     display:flex;
-    float: right;
+     display: flex;
+  text-align: center;
+  float: center;
     
+}
+.oo{
+    color: rgb(255, 255, 255);
 }
 
 td:nth-child(2){
@@ -173,9 +178,9 @@ table{
         display: block;
     }
     .hh,header{
-        width:auto;
+        width:99%;
         .nav{display: block;
-        float: inline-start;}
+        float: center;}
     }
     
 }
@@ -189,7 +194,7 @@ table{
     background-color: rgba(0, 0, 0, 0.123);
 }
 .header{
-    display: flex;
+    display: inline-block;
 }
 .contener{
     display: flex;
