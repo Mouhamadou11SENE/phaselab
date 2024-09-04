@@ -40,16 +40,13 @@ address{
 a{
     color: rgb(255, 255, 255);
     background-color:color rgba(131, 240, 16, 0.847);
-    padding-bottom:4 px;
     padding-top: 7px;
     text-decoration: none;
-    margin: 42px;
-    padding: 12px;
+    padding: 27px;
     margin-bottom: 13px;
     font-weight: bolder;
     font-size: 23px;
-    text-align: center;
-    
+
 }
 article{
     margin: 24px 34px 24px 34px;
@@ -65,10 +62,7 @@ h4{
     font-family: 'Times New Roman', Times, serif ;
 }
 .nav{
-     display: flex;
-     text-align: center;
-  
-    
+ display: flex;
 }
 .oo{
     color: rgb(255, 255, 255);
@@ -140,6 +134,7 @@ img{
     text-align: center;
 
 }
+
 .qq{
     margin-top: 34px;
 }
@@ -168,9 +163,6 @@ table{
 .v1{
     text-align: CENTER;
 }
-@media () {
-    
-}
 
 
 
@@ -191,4 +183,20 @@ table{
 }
 .contener3{
     display: flex;
+}
+@media(max-width:700px){
+   .info{
+    display: block;
+   }
+}
+@media(max-width:400px){
+    .nav{
+        display: inline;
+    }
+}
+@media(mIN-width:400px){
+    a{
+        margin-left: 9%;
+        margin-right: 9%;
+    }
 }
