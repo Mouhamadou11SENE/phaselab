@@ -63,8 +63,6 @@ a:hover{
     background-color: rgba(0, 0, 0, 0.269);
     text-align: center;
     border:dashed ;
-    margin-left: 172px;
-    margin-right: 172px;
     padding-bottom: 73px;
     border-radius: 15%;
 }
@@ -74,7 +72,7 @@ a:hover{
     
 }
 Textarea{
-    width: 300px;
+    width: 300px,12%;;
     height: 130px;
     border: double;
 }
@@ -83,4 +81,7 @@ p{
 }
 h3{
     color: rgb(255, 255, 255);
+}
+.p11{
+    width: 98%;
 }
